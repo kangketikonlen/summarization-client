@@ -58,7 +58,7 @@ export default function Index() {
           Huggingface 🤗 Transformer Summarization
         </div>
         <div className="mt-4 self-center text-xl sm:text-sm text-gray-800 text-center">
-          Sebuah program kecil menggunakan kekuatan artificial intelligence untuk merangkum konten berita. Simak cara kerjanya <a class="text-red-500" href="https://github.com/kangketikonlen/my-notebook/blob/main/Huggingface-transformer-summarization.ipynb">di sini</a> dan <a href="https://github.com/kangketikonlen/my-notebook/blob/main/Huggingface-transformer-summarization-v2.ipynb" class="text-red-500">di sini</a>.
+          Sebuah program kecil menggunakan kekuatan artificial intelligence untuk merangkum konten berita. Simak cara kerjanya <a class="text-red-500" target="_blank" href="https://github.com/kangketikonlen/my-notebook/blob/main/Huggingface-transformer-summarization.ipynb">di sini</a> dan <a href="https://github.com/kangketikonlen/my-notebook/blob/main/Huggingface-transformer-summarization-v2.ipynb" target="_blank" class="text-red-500">di sini</a>.
         </div>
         <div className="mt-5">
           <form onSubmit={getSummary}>

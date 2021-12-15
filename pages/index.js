@@ -16,7 +16,7 @@ export default function Index() {
     summaryResults.innerHTML = "";
     // Request data from server
     const readData = await fetch(
-      'http://127.0.0.1:2022/sumv2',
+      'http://194.163.40.82:2022/sumv2',
       {
         body: JSON.stringify({
           url: event.target.url.value,

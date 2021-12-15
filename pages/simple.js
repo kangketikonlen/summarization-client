@@ -16,7 +16,7 @@ export default function Simple() {
 		summaryResults.innerHTML = "";
 		// Request data from server
 		const readData = await fetch(
-			'http://127.0.0.1:2022/sumv1',
+			'http://194.163.40.82:2022/sumv1',
 			{
 				body: JSON.stringify({
 					deskripsi: event.target.deskripsi.value,

@@ -22,7 +22,7 @@ export default function Simple() {
 		summaryResults.innerHTML = "";
 		// Request data from server
 		const readData = await fetch(
-			'http://localhost:2022/sumv2',
+			'http://194.163.40.82:2022/sumv2',
 			{
 				body: JSON.stringify({
 					url: event.target.url.value,
